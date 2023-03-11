@@ -1,0 +1,26 @@
+.page {
+  flex: 1;
+  background-color: var(--page__bg-color);
+  color: var(--page__text-color)
+}
+
+.ok__btn {
+  background-color: #03F;
+  color: white;
+}
+
+.cancel__btn {
+  background: transparent;
+  border: none;
+  color: black;
+}
+
+.warning__btn {
+  background-color: #ffa500;
+  color: black;
+}
+
+.danger__btn {
+  background-color: #cc0000;
+  color: white;
+}

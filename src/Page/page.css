@@ -1,0 +1,35 @@
+.page {
+  flex: 1;
+  padding: 40px;
+  background-color: var(--page__bg-color);
+  color: var(--page__text-color)
+}
+
+.page-1__row{
+  display: flex;
+  height: 100%;
+}
+
+.page-1__col{
+  width: 50%;
+  flex: 1;
+}
+
+.page-1__left-side {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.page-1__toggle-theme-button {
+  background-color: var(--toggle-theme__button__bg-color);
+  color: var(--toggle-theme__button__text-color);
+}
+
+.page-1__textarea {
+  margin-top: 30px;
+}
+
+.page-1__comments {
+  margin-top: 30px;
+}

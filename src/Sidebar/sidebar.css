@@ -1,0 +1,17 @@
+.sidebar {
+  background-color: var(--sidebar__bg-color);
+  color: var(--sidebar__text-color);
+  
+}
+
+.sidebar__item {
+  margin-top: 10px;
+}
+
+.sidebar__item a{
+  text-decoration: none;
+}
+
+.sidebar__item-txt {
+  margin-left: 10px;
+}

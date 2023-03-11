@@ -1,0 +1,38 @@
+.page {
+  flex: 1;
+  padding: 40px;
+  background-color: var(--page-1-right-bg-color);
+  color: var(--page-1-right-text-color)
+}
+
+.page-1__row{
+  display: flex;
+  height: 100%;
+}
+
+.page-1__col{
+  width: 50%;
+  flex: 1;
+}
+
+.page-1__leftside {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.page-1__textarea {
+  margin-top: 30px;
+}
+
+.page-1__comment {
+  margin-top: 30px;
+}
+
+.page-1__comment_disable {
+  background-color: gray;
+}
+
+.page-1__addbtn {
+  padding-top: 30px;
+}

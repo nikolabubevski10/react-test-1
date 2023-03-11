@@ -1,0 +1,4 @@
+.header__container {
+  background-color: var(--top-bar__bg-color);
+  color: var(--top-bar__text-color);
+}
